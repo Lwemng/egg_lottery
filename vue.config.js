@@ -1,4 +1,5 @@
 module.exports = {
+  publicPath:'./',
   productionSourceMap: false,
   //px转rem的配置（postcss-plugin-px2rem插件）
   lintOnSave: true,
