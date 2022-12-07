@@ -1,0 +1,46 @@
+// 扭蛋机中奖出蛋动画
+@keyframes bottomInDown {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    top: 85%;
+  }
+}
+//浮动动画
+@keyframes boxUpDown {
+  0% { transform: translateY(-15px) }
+  50%{transform: translateY(0px)}
+  100% { transform: translateY(-15px) }
+}
+
+@keyframes boxballUpDown {
+  0% { transform: translateY(-100px) }
+  25%{transform: translateX(-20px);}
+  50%{transform: translateY(0px)}
+  75%{transform: translateX(20px);}
+  100% { transform: translateY(-100px) }
+}
+
+// 获奖名单动画
+@keyframes example {
+  0% { transform: translateY(0) }
+  25% { transform: translateY(0) }
+  30% { transform: translateY(-80px) }
+  65% { transform: translateY(-80px) }
+  70% { transform: translateY(-160px) }
+  95% { transform: translateY(-160px) }
+  100% { transform: translateY(-240px) }
+}
+
+
+// background-position | 背景图坐标轴定位
+// transform
+// transform-origin    | 更改元素变形原点
+// translateX          | 页面水平移动元素
+// translateY          | 页面垂直移动元素
+// scale(X Y)          | 按比例变换元素
+// scaleX(X)           | 沿X轴按比例变换元素
+// scaleY(Y)           | 沿Y轴按比例变换元素

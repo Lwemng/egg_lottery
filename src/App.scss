@@ -1,0 +1,428 @@
+
+
+
+.container {
+  width: 750px;
+  margin: auto;
+  
+  .content {
+    width: 750px;
+    height: 1136px;
+    background: url(./assets/icons/topimg.jpg) no-repeat 0px 0px /750px 1136px;
+    overflow: hidden;
+    position: relative;
+    .title1{
+      width: 100%;
+      height:100%;
+      background: url(./assets/icons/lottery-title02.png) no-repeat 0px 0px /680px 244px;
+      position: absolute;
+      left: 50px;
+      top: 40px;
+    }
+    .starleft{
+      width: 100px;
+      height: 160px;
+      background:url(./assets/icons/star-left.png) no-repeat 0 0 /100px 160px;
+      position: absolute;
+    }
+    .starright{
+      height: 200px;
+      width:118px;
+      right: 1px;
+      background:url(./assets/icons/star-right.png)no-repeat 0 0 /118px 167px;
+      position: absolute;
+    }
+    .machine {
+      width: 600px;
+      height:700px;
+      background: url(./assets/icons/lottery-normal.png) no-repeat 0 0 /587px 604px;
+      position: absolute;
+      left: 80px;
+      top:200px;
+    }
+      .centball{
+      top: 400px;
+      left: 260px;
+      transform: scale(0.2);
+      -webkit-transform: scale(0.2);
+      transition: all 0.5s ease-in-out;
+      opacity: 0;
+    }
+    .machine-botton {
+        width:755px;
+        height:790px;
+        background: url(./assets/icons/part1.png) no-repeat 0 0 / 750px 785px;
+        position: absolute;
+        top:700px;
+      }
+      .divergeball{
+        top: 400px;
+        left: 260px;
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transition: all 0.5s ease-in-out;
+        opacity: 100;
+      }
+    .box-ballupDown{
+      top:400px;
+      left: 200px;
+      position: absolute;
+      -webkit-animation: boxballUpDown 0.5s linear infinite;
+      animation: boxballUpDown 0.5s linear infinite;
+      .box-ball1{
+        background: url(./assets/icons/ball1.png) no-repeat 0 0 /170px 170px;
+        position: absolute;
+        width: 160px;
+        height: 160px;
+        top: 200px;
+        -webkit-animation: boxballUpDown 0.5s linear infinite;
+      animation: boxballUpDown 0.5s linear infinite;
+      }
+      .box-ball2{
+        background: url(./assets/icons/ball2.png) no-repeat 0 0 /170px 170px;
+        position: absolute;
+        width: 160px;
+        height: 160px;
+        left: 10px;
+        top:100px;
+        
+      }
+      .box-ball3{
+        background: url(./assets/icons/ball3.png) no-repeat 0 0 /170px 170px;
+        position: absolute;
+        width: 160px;
+        height: 160px;
+        left:100px;
+        top:60px;
+        -webkit-animation: boxballUpDown 0.5s linear infinite;
+      animation: boxballUpDown 0.5s linear infinite;
+      }
+      .box-ball4{
+        background: url(./assets/icons/ball4.png) no-repeat 0 0 /170px 170px;
+        position: absolute;
+        width: 160px;
+        height: 160px;
+        left:100px;
+        top:150px;
+        
+      }
+      .box-ball5{
+        background: url(./assets/icons/ball1.png) no-repeat 0 0 /170px 170px;
+        position: absolute;
+        width: 160px;
+        height: 160px;
+        left:200px;
+        top:200px;
+        -webkit-animation: boxballUpDown 0.5s linear infinite;
+      animation: boxballUpDown 0.5s linear infinite;
+      }
+      .box-ball6{
+        background: url(./assets/icons/ball2.png) no-repeat 0 0 /170px 170px;
+        position: absolute;
+        width: 160px;
+        height: 160px;
+        left:200px;
+        top:100px;
+        
+      }
+    }
+    .balls{
+      -webkit-animation: boxUpDown 1s linear infinite;
+      animation: boxUpDown 1s linear infinite;
+      
+    .ball1{
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        background: url(./assets/icons/box-chose11.png) no-repeat ;
+        top:440px;
+        left: 290px;
+        background-size: 60%;
+        .pop1{
+          top:-40px;
+          left: -30px;
+          width: 100%;
+          height:100%;
+          position: absolute;
+          background: url(./assets/icons/pop1.png) no-repeat 0 0 / 221px 222px;
+        }
+        
+      }
+      .ball2{
+        width: 160px;
+        height: 160px;
+        position: absolute;
+        background: url(./assets/icons/bg9-1.png) no-repeat ;
+        top:300px;
+        left: 180px;
+        background-size: 60%;
+        .pop2{
+          top:-20px;
+          left: -20px;
+          width: 100%;
+          height:100%;
+          position: absolute;
+          background: url(./assets/icons/pop2.png) no-repeat 0 0 / 221px 222px;
+          background-size: 80%;
+        }
+        
+      }
+      .ball3{
+        width: 220px;
+        height: 220px;
+        position: absolute;
+        background: url(./assets/icons/bg9-2.png) no-repeat ;
+        top:340px;
+        left: 490px;
+        background-size: 60%;
+        .pop3{
+          top:-40px;
+          left: -30px;
+          width: 100%;
+          height:100%;
+          position: absolute;
+          background: url(./assets/icons/pop3.png) no-repeat;
+          background-size: 95%;
+        }
+        
+      }
+      .ball4{
+        width: 230px;
+        height: 230px;
+        position: absolute;
+        background: url(./assets/icons/bg9-3.png) no-repeat ;
+        top:540px;
+        left: 100px;
+        background-size: 60%;
+        .pop3{
+          top:-40px;
+          left: -30px;
+          width: 100%;
+          height:100%;
+          position: absolute;
+          background: url(./assets/icons/pop3.png) no-repeat;
+          background-size: 95%;
+        }
+        
+      }
+      .ball5{
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        background: url(./assets/icons/bg9-4.png) no-repeat ;
+        top:200px;
+        left: 320px;
+        background-size: 60%;
+        .pop4{
+          top:-40px;
+          left: -30px;
+          width: 100%;
+          height:100%;
+          position: absolute;
+          background: url(./assets/icons/pop4.png) no-repeat ;
+          background-size:95%;
+        }
+        
+      }
+      .ball6{
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        background: url(./assets/icons/bg9-5.png) no-repeat ;
+        top:600px;
+        left: 520px;
+        background-size: 60%;
+        .pop4{
+          top:-40px;
+          left: -30px;
+          width: 100%;
+          height:100%;
+          position: absolute;
+          background: url(./assets/icons/pop4.png) no-repeat ;
+          background-size:95%;
+        }
+        
+      }
+    }
+    .btn-lottery {
+      position: absolute;
+      width: 312px;
+      height: 118px;
+      background: url(./assets/icons/o-btn.png) no-repeat 0 0 /312px 118px;
+      font-size: 30px;
+      color: rgb(117, 23, 23);
+      font-weight:bold ;
+      font-family: "微软雅黑";
+      padding-bottom: 100px;
+      top: 750px;
+      left: 215px;
+      margin: 0;
+      border: none;
+    }
+    .btn-left{
+      width:100px;
+      height: 200px;
+      position:absolute;
+      background: url(./assets/icons/icon-left.png) no-repeat 0 0 /97px 124px;
+      top:740px;
+      left: 80px;
+      margin: 0;
+      border: none;
+    }
+    .btn-right{
+      width:100px;
+      height: 200px;
+      position:absolute;
+      background: url(./assets/icons/icon-right.png) no-repeat 0 0 /97px 124px;
+      top:740px;
+      right: 80px;
+      margin: 0;
+      border: none;
+    }
+    .coin{
+      width: 150px;
+      height: 50px;
+      background:url(./assets/icons/coin.png) no-repeat 0 0 /255px 255px;
+      position: absolute;
+      background-size: 25%;
+      top:790px;
+      left: 310px;
+      font-size: 30px;
+      font-weight: bold;
+      color: yellow;
+      text-align: center;
+    }
+    .tipbg{
+      width:700px;
+      height: 40px;
+      background: url(./assets/icons/tipbg.png) no-repeat 0 0 /679px 35px;
+      text-align: center;
+      color: #fff;
+      position: absolute;
+      left: 35px;
+      top:880px;
+      font-size: 20px;
+      line-height: 40px;
+      font-family: '微软雅黑';
+    }
+    .detialbg{
+      width:680px;
+      height: 90px;
+      background: url(./assets/icons/detialbg.png) no-repeat 0 0 /668px 86px;
+      position: absolute;
+      top:940px;
+      left: 40px;
+    }
+    .btn-win{
+      width: 174px;
+      height: 78px;
+      background: url(./assets/icons/h-btn.png) no-repeat 0 0 / 174px 81px;
+      font-size: 30px;
+      color: rgb(117, 23, 23);
+      font-weight:bold ;
+      font-family: "微软雅黑";
+      border: 0;
+      position: absolute;
+      top:940px;
+      left: 100px;
+    }
+    .cj-timesbg{
+      width: 250px;
+      height: 85px;
+      position: absolute;
+      background: url('./assets/icons/numbg.png') no-repeat  0 0 / 244px 82px;
+      top: 940px;
+      left:290px;
+      font-size: 28px;
+      text-align: center;
+      color: #fff;
+      .i{
+        color: yellow;
+      }
+    }
+    
+    .ball-exit{
+      width: 125px;
+      height: 125px;
+      position: absolute;
+      background: url(./assets/icons/exit.png) no-repeat 0 0 /121px 121px;
+      top: 920px;
+      right: 80px;
+    }
+    .bounce-down-ball {
+      width: 100px;
+      height: 100px;
+      background: url(./assets/icons/ball1.png) no-repeat;
+      top: 950px;
+      right: 98px;
+      position: absolute;
+      background-size: 110%;
+      animation: bottomInDown 600ms linear;
+    }
+  }
+  // 我的奖品
+  .my-prize {
+    background-color: #ead7b8;
+    overflow: hidden;
+    margin-top: -1px;
+    position: relative;
+    .top {
+      background: url(./assets/icons/daybg.png) no-repeat;
+      background-size: 100%;
+      width: 416px;
+      height: 100px;
+      position: absolute;
+      top: 80px;
+      left: 50%;
+      margin-left: -200px;
+      z-index: 10;
+      color: rgb(117, 23, 23);
+      font-size: 50px;
+      text-align: center;
+      font-weight: bold;
+      line-height: 100px;
+    }
+    .list {
+      background-color: #fff;
+      width: 680px;
+      font-size: 28px;
+      position: relative;
+      margin: 272px auto 232px;
+      padding-bottom: 24px;
+      li {
+        padding: 0 76px 0 40px;
+        margin-bottom: 36px;
+        display: flex;
+        align-items: center;
+        span {
+          display: inline-block;
+          &:nth-of-type(1),
+          &:nth-of-type(2) {
+            margin-right: 40px;
+          }
+          &:nth-of-type(3) {
+            width: 190px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+        }
+      }
+      
+      &::before {
+        top: -150px;
+      }
+      &::after {
+        transform: rotate(180deg);
+        bottom: -150px;
+      }
+    }
+    .no-awards {
+      text-align: center;
+      width: 100%;
+      position: absolute;
+      bottom: 220px;
+      font-size: 22px;
+    }
+  }
+}
