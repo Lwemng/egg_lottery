@@ -147,7 +147,7 @@ export default {
         this.awardList = Storage.getItem("awardList");
 
       } else {
-        alert('附魔道具已抽完')
+        alert('附魔扭蛋已抽完')
       }
 
       let prize_lists = PRIZES_LIST.splice(i, 1);

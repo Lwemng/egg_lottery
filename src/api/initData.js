@@ -1,7 +1,7 @@
 export const PRIZES_LIST = [
   {
     id: 1,
-    name: "强力打造石（绑）",
+    name: "强力打造石",
     img: require("../assets/icons/box-chose11.png"),
     type: "a"
   },

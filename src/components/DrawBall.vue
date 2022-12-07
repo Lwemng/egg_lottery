@@ -5,7 +5,7 @@
         <div class="cont">
           恭喜获得
           <div class="name">{{ awardData.name }}</div>
-          <img class="imgbg" :src="awardData.img">
+          <img class="imgbg" :src="awardData.img" alt="">
           
           <!-- 隐藏图标 -->
           <div @click="hideDrawBall" class="hide"></div>
@@ -69,14 +69,15 @@ export default {
           height: 85px;
           line-height: 40px;
           font-weight: bold;
-          font-size: 50px;
+          font-size: 40px;
         }
         .imgbg{
           left:150px;
           top:-5px;
           position: absolute;
-          width:200px;
-          height: 200px;
+          width:180px;
+          height: 180px;
+          border: 0;
         }
         
         
