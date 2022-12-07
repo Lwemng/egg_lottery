@@ -117,7 +117,7 @@ export default {
     },
   },
   created() {
-    let { totalTimes, awardList } = Storage.getStorage();
+    let { awardList } = Storage.getStorage();
     this.totalTimes = LOTTERY_TIMES;
     Storage.setItem("totalTimes", this.totalTimes);
     Storage.setItem("usedTimes", 0);
@@ -164,7 +164,7 @@ export default {
         this.showball5 = false;
       } else if (prize_lists[0].id == 6) {
         this.showball6 = false;
-      };
+      }
 
       return prize_lists[0];
 
